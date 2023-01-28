@@ -1,0 +1,25 @@
+<div class="header"></div>
+
+<div class="pdf-actions">
+  
+</div>
+
+<div id="outerContainer">
+  <div class="pdf-container">
+    <pdf-viewer
+      [src]="src"
+      [rotation]="0"
+      [original-size]="false"
+      [show-all]="true"
+      [fit-to-page]="false"
+      [zoom]="1"
+      [zoom-scale]="'page-width'"
+      [stick-to-page]="false"
+      [render-text]="false"
+      [external-link-target]="'blank'"
+      [autoresize]="true"
+      [show-borders]="true"
+      style="width: 100vw; height: calc(100vh - 100px);"
+    ></pdf-viewer>
+  </div>
+</div>
